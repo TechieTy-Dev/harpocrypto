@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Card, Row, Col, Input } from 'antd'
 
+import eth from '../images/eth.png'
 
 // Add API to have a Crypto List
 
@@ -19,12 +20,13 @@ const Cryptocurrencies = () => {
             <Card title="Bitcoin" extra="BTC" hoverable >
               <p>Price: $30,074.95</p>
               <p>Market Cap: $580.5B</p>
-              <p>Daily Change: +2.34%</p>
+              <p className="crypto-up_change">Daily Change: +2.34%</p>
             </Card>
-            <Card title="Ethereum" extra="ETH" hoverable >
+            <Card title="Ethereum" extra="ETH" src={eth}hoverable >
+      
               <p>Price: $1,823.24</p>
               <p>Market Cap: $220.0B</p>
-              <p>Daily Change: +2.32%</p>
+              <p className="crypto-down_change">Daily Change: +2.32%</p>
             </Card>
           </Link>
         </Col>
@@ -33,12 +35,12 @@ const Cryptocurrencies = () => {
             <Card title="BNB" extra="BNB" hoverable >
               <p>Price: $289.49</p>
               <p>Market Cap: $47.2B</p>
-              <p>Daily Change: -.93%</p>
+              <p className='crypto-down_change'>Daily Change: -.93%</p>
             </Card>
             <Card title="Cardano" extra="ADA" hoverable >
               <p>Price: $.65</p>
               <p>Market Cap: $22.0B</p>
-              <p>Daily Change: +2.02%</p>
+              <p className='crypto-up_change'>Daily Change: +2.02%</p>
             </Card>
           </Link>
         </Col>
@@ -47,12 +49,12 @@ const Cryptocurrencies = () => {
             <Card title="Solana" extra="SOL" hoverable >
               <p>Price: $39.19</p>
               <p>Market Cap: $13.3B</p>
-              <p>Daily Change: +.77%</p>
+              <p className='crypto-up_change'>Daily Change: +.77%</p>
             </Card>
             <Card title="Polkadot" extra="DOT" hoverable >
               <p>Price: $9.09</p>
               <p>Market Cap: $8.9B</p>
-              <p>Daily Change: +2.32%</p>
+              <p className='crypto-up_change'>Daily Change: +2.32%</p>
             </Card>
           </Link>
         </Col>
@@ -61,12 +63,12 @@ const Cryptocurrencies = () => {
             <Card title="Avalanche" extra="AVAX" hoverable >
               <p>Price: $24.38</p>
               <p>Market Cap: $6.8B</p>
-              <p>Daily Change: +2.34%</p>
+              <p className='crypto-up_change'>Daily Change: +2.34%</p>
             </Card>
             <Card title="Polygon" extra="MATIC" hoverable >
               <p>Price: $.61</p>
               <p>Market Cap: $4.8B</p>
-              <p>Daily Change: +.42%</p>
+              <p className='crypto-up_change'>Daily Change: +.42%</p>
             </Card>
           </Link>
         </Col>

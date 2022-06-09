@@ -31,10 +31,10 @@ const Exchanges = () => {
                 <Avatar className="exchange-image" src={binance} />
                 <Text><strong>Binance</strong></Text>
               </Col>
-              <Col span={4}>9.9</Col>
+              <Col className="ex-box-2" span={4}>9.9</Col>
               <Col span={4}>$13,343,551,101.94</Col>
               <Col span={4}>1673</Col>
-              <Col span={4} className="red-1"> -22.83%</Col>
+              <Col span={4} className="crypto-down_change"> -22.83%</Col>
             </Row>
   
           
@@ -48,10 +48,10 @@ const Exchanges = () => {
                 <Avatar className="exchange-image" src={coinbase} />
                 <Text><strong>Coinbase</strong></Text>
               </Col>
-              <Col span={4}>8.2</Col>
+              <Col className="ex-box-2"span={4}>8.2</Col>
               <Col span={4}>$1,557,682,178</Col>
               <Col span={4}>519</Col>
-              <Col span={4} className="red-1"> -22.95%</Col>
+              <Col span={4} className="crypto-down_change"> -22.95%</Col>
             </Row>
   
           
@@ -65,10 +65,10 @@ const Exchanges = () => {
                 <Avatar className="exchange-image" src={ftx} />
                 <Text><strong>FTX</strong></Text>
               </Col>
-              <Col span={4}>8.2</Col>
+              <Col className="ex-box-2"span={4}>8.2</Col>
               <Col span={4}>$1,635,869,920</Col>
               <Col span={4}>420</Col>
-              <Col span={4} className="red-1"> -23.05%</Col>
+              <Col span={4} className="crypto-down_change"> -23.05%</Col>
             </Row>
   
           
@@ -82,10 +82,10 @@ const Exchanges = () => {
                 <Avatar className="exchange-image" src={kraken} />
                 <Text><strong>Kraken</strong></Text>
               </Col>
-              <Col span={4}>7.8</Col>
+              <Col className="ex-box-1"span={4}>7.8</Col>
               <Col span={4}>$485,252,130</Col>
               <Col span={4}>556</Col>
-              <Col span={4} className="red-1"> -28.83%</Col>
+              <Col span={4} className="crypto-down_change"> -28.83%</Col>
             </Row>
           
   
@@ -100,10 +100,10 @@ const Exchanges = () => {
                 <Avatar className="exchange-image" src={gemini} />
                 <Text><strong>Gemini</strong></Text>
               </Col>
-              <Col span={4}>7.0</Col>
+              <Col className="ex-box" span={4}>7.0</Col>
               <Col span={4}>$88,180,116</Col>
               <Col span={4}>121</Col>
-              <Col span={4} className="red-1"> -22.25%</Col>
+              <Col span={4} className="crypto-down_change"> -22.25%</Col>
             </Row>
   
           
@@ -117,10 +117,10 @@ const Exchanges = () => {
                 <Avatar className="exchange-image" src={crypto} />
                 <Text><strong>Crypto.com</strong></Text>
               </Col>
-              <Col span={4}>6.7</Col>
+              <Col className="ex-box"span={4}>6.7</Col>
               <Col span={4}>$985,050,731</Col>
               <Col span={4}>464</Col>
-              <Col span={4} className="red-1"> -3.25%</Col>
+              <Col span={4} className="crypto-down_change"> -3.25%</Col>
             </Row>
   
           

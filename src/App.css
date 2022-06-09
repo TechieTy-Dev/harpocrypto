@@ -376,3 +376,23 @@ width: 70%;
   bottom: 1px;
   align-items: center;
 }
+
+.crypto-up_change{
+  color: green;
+}
+
+.crypto-down_change{
+  color: rgb(185, 23, 23);
+}
+
+.ex-box{
+  color: rgb(16, 24, 240); 
+}
+
+.ex-box-1 {
+  color: rgb(133, 33, 180);
+}
+
+.ex-box-2{
+  color: rgb(25, 173, 25);
+}
