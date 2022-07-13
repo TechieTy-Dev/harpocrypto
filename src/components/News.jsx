@@ -24,7 +24,7 @@ FINTECH STARTUP EDGE RELEASE FIRST CONFIDENTIAL BITCOIN MASTERCARD</Title>
             <p>Edges new card will not collect KYC data used to determine a persons identity giving complete privacy and instant transfers with no fees.</p>
             <div className="provider-container">
               <div>
-                <Avatar src={bm} alt="" />
+                <Avatar src={bm} alt="Blockchain Magazine Avatar Logo" />
                 <Text className="provider-name">Bitcoin Magazine</Text>
               </div>
               <Text>06/08/2022</Text>
@@ -42,7 +42,7 @@ FINTECH STARTUP EDGE RELEASE FIRST CONFIDENTIAL BITCOIN MASTERCARD</Title>
             <p>Coinbase Wallet makes it simple to trade tokens on your choice of network. This month, we expanded our trading features to support token swaps on BNB Chain and Avalanche.</p>
             <div className="provider-container">
               <div>
-                <Avatar src={cb} alt="" />
+                <Avatar src={cb} alt="CoinBase Avatar Logo" />
                 <Text className="provider-name">The Coinbase Blog</Text>
               </div>
               <Text>05/23/2022</Text>
@@ -59,7 +59,7 @@ FINTECH STARTUP EDGE RELEASE FIRST CONFIDENTIAL BITCOIN MASTERCARD</Title>
             <p>Burnout is experienced in numerous fields and finance is no exception. Bitcoin offers a viable and non-correlated alternative to a system known for burnout.</p>
             <div className="provider-container">
               <div>
-                <Avatar src={bm} alt="" />
+                <Avatar src={bm} alt="Blockchain Magazine Avatar Logo" />
                 <Text className="provider-name">Bitcoin Magazine</Text>
               </div>
               <Text>06/07/2022</Text>
@@ -75,7 +75,7 @@ FINTECH STARTUP EDGE RELEASE FIRST CONFIDENTIAL BITCOIN MASTERCARD</Title>
             <p>Coinbase commits $1 million for Public Goods through Gitcoin, including $200,000 for upcoming Grants Round 14.</p>
             <div className="provider-container">
               <div>
-                <Avatar src={cb} alt="" />
+                <Avatar src={cb} alt="CoinBase Avatar Logo" />
                 <Text className="provider-name">The Coinbase Blog</Text>
               </div>
               <Text>06/01/2022</Text>
@@ -92,7 +92,7 @@ FINTECH STARTUP EDGE RELEASE FIRST CONFIDENTIAL BITCOIN MASTERCARD</Title>
             <p>A year after the introduction of bitcoin as legal tender in El Salvador, we can reflect on the stories of those who’ve experienced the adoption firsthand.</p>
             <div className="provider-container">
               <div>
-                <Avatar src={bm} alt="" />
+                <Avatar src={bm} alt="Blockchain Magazine Avatar Logo" />
                 <Text className="provider-name">Bitcoin Magazine</Text>
               </div>
               <Text>06/8/2022</Text>
@@ -109,7 +109,7 @@ FINTECH STARTUP EDGE RELEASE FIRST CONFIDENTIAL BITCOIN MASTERCARD</Title>
             <p>At Coinbase, we take our responsibility to build a more open, accessible financial system very seriously. We’re deeply committed to our asset listing policies and processes, and we’ll continue to innovate as our dynamic space evolves.</p>
             <div className="provider-container">
               <div>
-                <Avatar src={cb} alt="" />
+                <Avatar src={cb} alt="CoinBase Avatar Logo" />
                 <Text className="provider-name">The Coinbase Blog</Text>
               </div>
               <Text>05/19/2022</Text>

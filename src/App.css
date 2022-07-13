@@ -1,11 +1,13 @@
 :root{
-  --text-primary:rgba(134, 134, 134, 0.81);
+  --text-primary:rgba(74, 73, 73, 0.81);
   --bgPrimary:#fff;
  --bgSecondary: #F9F9F9;
  --pink: #e816be;
  --light-blue: #e6f7ff;
  --border: #d9d9d9;
 }
+
+
 
 * {
   margin: 0;

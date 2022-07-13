@@ -28,7 +28,7 @@ const Exchanges = () => {
               <Col span={4}>
                 <Text><strong># 1</strong></Text> </Col>
                 <Col span={4}>
-                <Avatar className="exchange-image" src={binance} />
+                <Avatar alt="Binance Avatar Logo" className="exchange-image" src={binance} />
                 <Text><strong>Binance</strong></Text>
               </Col>
               <Col className="ex-box-2" span={4}>9.9</Col>
@@ -45,7 +45,7 @@ const Exchanges = () => {
               <Col span={4}>
                 <Text><strong># 2</strong></Text> </Col>
                 <Col span={4}>
-                <Avatar className="exchange-image" src={coinbase} />
+                <Avatar alt="Coinbase Avatar Logo" className="exchange-image" src={coinbase} />
                 <Text><strong>Coinbase</strong></Text>
               </Col>
               <Col className="ex-box-2"span={4}>8.2</Col>
@@ -62,7 +62,7 @@ const Exchanges = () => {
               <Col span={4}>
                 <Text><strong># 3</strong></Text> </Col>
                 <Col span={4}>
-                <Avatar className="exchange-image" src={ftx} />
+                <Avatar alt="FTX Avatar Logo" className="exchange-image" src={ftx} />
                 <Text><strong>FTX</strong></Text>
               </Col>
               <Col className="ex-box-2"span={4}>8.2</Col>
@@ -79,7 +79,7 @@ const Exchanges = () => {
               <Col span={4}>
                 <Text><strong># 4</strong></Text> </Col>
                 <Col span={4}>
-                <Avatar className="exchange-image" src={kraken} />
+                <Avatar alt="Kraken Avatar Logo" className="exchange-image" src={kraken} />
                 <Text><strong>Kraken</strong></Text>
               </Col>
               <Col className="ex-box-1"span={4}>7.8</Col>
@@ -97,7 +97,7 @@ const Exchanges = () => {
               <Col span={4}>
                 <Text><strong># 5</strong></Text> </Col>
                 <Col span={4}>
-                <Avatar className="exchange-image" src={gemini} />
+                <Avatar alt="Gemini Avatar Logo" className="exchange-image" src={gemini} />
                 <Text><strong>Gemini</strong></Text>
               </Col>
               <Col className="ex-box" span={4}>7.0</Col>
@@ -114,7 +114,7 @@ const Exchanges = () => {
               <Col span={4}>
                 <Text><strong># 6</strong></Text> </Col>
                 <Col span={4}>
-                <Avatar className="exchange-image" src={crypto} />
+                <Avatar alt="Crypto.com Avatar Logo" className="exchange-image" src={crypto} />
                 <Text><strong>Crypto.com</strong></Text>
               </Col>
               <Col className="ex-box"span={4}>6.7</Col>
